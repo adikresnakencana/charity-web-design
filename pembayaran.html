@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- bootstrap  -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
+   <!-- font -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   <!-- fontawecome icon -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+   <link rel="stylesheet" type="text/css" href="assets/css/pem.css">
+
+   <title>Menu Pembayaran</title>
+</head>
+
+<body ng-app="">
+   <!-- kode navbar -->
+   <div ng-include="'navbar-alternate.html'"></div>
+   <!-- akhir code navbar -->
+   <br><br><br><br>
+   <div class="container" id="container1">
+      <div class="card text-center" id="kotak1">
+         <img class="card-img-top" src="assets/img/bg2.jpg" alt="Card image cap">
+         <div class="card-body">
+            <p class="card-text">
+               <strong>Anda akan berdonasi untuk</strong></p>
+            <h5 class="card-title">Baju Lebaran Buat Adik Panti Asuhan</h5>
+         </div>
+      </div>
+   </div>
+   <!-- kode kotak dua di mulai -->
+   <div class="container" id="container2">
+
+      <div class="card">
+         <form action="sukses.html" class="form-container">
+            <div class="card-body">
+               <div class="kotakdua">
+
+                  <!-- kode awal memasukan uang donasi -->
+                  <div class="input-group mb-3">
+                     <div class="input-group-prepend">
+                        <span class="input-group-text">Rp</span>
+                     </div>
+                     <input type="text" class="form-control" required>
+
+
+                  </div>
+                  <!-- kode akhir memasukan uang donasi -->
+                  <!-- donasi mulai dari 1.000 -->
+                  <div class="box-alert">
+                     Donasi mulai dari Rp 1.000
+                  </div>
+                  <!-- kode akhir donasi mulai dari 1.000 -->
+                  <!-- METODE PEMBAYARAN -->
+
+                  <!-- <div class="col align-left margin-left-3">
+                     <div class="col--s10 d-flex center">
+                        <span class="d-inline flex-center-vh category-select-head__img js-category-select__target-img">
+                           <span class="text-semibold">Metode Pembayaran</span>
+                        </span>
+                        <div class="flex-1 small-margin-lr">
+                           <span class="js-category-select-head__text"></span>
+                        </div>
+                     </div>
+                     <div class="col--s2"
+                        onclick="ga('send', 'event', 'change-payment-method', 'click', 'desktop.donate')">
+                        <span class="text-blue text-bold">
+                           PILIH
+                        </span>
+                     </div> -->
+               </div>
+               <div class="form__row-donation">
+                  <hr>
+                  <div class="row">
+                     <div class="col">
+
+                        <span class="metode-pemnbayaraan">
+                           <span class="text-semibold">Metode Pembayaran</span>
+                        </span>
+                     </div>
+                     <div class="col-colkanan ">
+
+                        <span class="text-blue text-bold text-right ">
+                           PILIH
+                        </span>
+
+                     </div>
+                  </div>
+
+
+
+                  <hr>
+               </div>
+
+
+
+               <!-- KODE AKHIR METAODE PEMBAYARAN -->
+               <div class="form__row align-center donation">
+                  <span>
+                     <a href="login.html" id="masuk">Masuk</a> atau lengkapi data di bawah ini
+                  </span>
+               </div>
+               <div class="form__row donation">
+                  <!-- namalengkap -->
+                  <div class="form-textfield">
+                     <input name="Donations" class=" form-control" id="donorName" type="text" maxlength="70"
+                        placeholder="Nama Lengkap" required>
+                  </div>
+                  <!-- codeakhir nama lengkap -->
+                  <!-- cekbox -->
+                  <div class="form-check">
+                     <input type="checkbox" class="form-check-input">
+                     <label class="form-check-label">Sembunyikan Nama saya (Anonim)</label>
+                  </div>
+                  <!-- code akhir checkbox -->
+               </div>
+               <div class="form-textfield">
+                  <input name="Donations" class="form-control" type="text" placeholder="Nomor WhatsApp atau Email Anda"
+                     required>
+
+               </div>
+               <!-- code awal teks area -->
+               <div class="textarea1">
+                  <div class="form-group">
+
+                     <textarea class="form-control" id="exampleFormControlTextarea1"
+                        placeholder="Tulis dukungan atau doa untuk penggalangan dana ini. Contoh: Semoga cepet sembuh, ya!"
+                        style="height: 10rem"></textarea>
+
+                  </div>
+
+                  <!-- code akhir teks area -->
+
+               </div>
+               <p>
+                  <input type="submit" class="btn btn-primary" style="width: 100%">
+               </p>
+
+            </div>
+         </form>
+      </div>
+
+   </div>
+   <!-- kode footer -->
+   <div ng-include="'footer.html'"></div>
+   <!-- akhir code footer -->
+
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+   </script>
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script> -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+   </script>
+   <!-- JavaScript MDBootsrap  -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js">
+   </script>
+   <!-- angular -->
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+   <script src="https://code.angularjs.org/1.6.9/angular-route.js"></script>
+
+   <script src="https://code.angularjs.org/1.6.9/angular.js"></script>
+</body>
+
+</html>

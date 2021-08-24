@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>profile</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-4.3.1/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- MDBootsrap CSS -->
+    <link rel="stylesheet" href="assets/css/mdb-4.8.3/mdb.min.css">
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+
+</head>
+
+<body ng-app="">
+    <!-- Navbar -->
+    <div ng-include="'navbar-alternate.html'"></div>
+
+    <br><br><br><br>
+    <div class="container-fluid">
+        <div class="wrapper">
+            <!-- Sidebar -->
+            <nav id="sidebar" style="height: 710px;">
+                <div class="sidebar-header text-center">
+                    <img src="assets/img/_4.jpg" class="rounded-circle" alt="img-user"
+                        style="width: 50px; height: 50px">
+                    <br><br>
+                    <h5>Adhitya Bagas</h5>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li class="active">
+                        <a href="profile.html">
+                            <i class="fas fa-home" style="margin-right: 5px;"></i>
+                            Overview
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fas fa-address-book" style="margin-right: 10px"></i>
+                            Verifikasi Akun
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#akunSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"">
+                                    <i class=" fas fa-user" style="margin-right: 10px"></i>
+                            Akun Saya
+                        </a>
+                        <ul class="collapse list-unstyled" id="akunSubmenu">
+                            <li>
+                                <a href="#">Edit Profile</a>
+                            </li>
+                            <li>
+                                <a href="#">Ganti Password</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu">
+                            <i class="fas fa-copy" style="margin-right: 10px"></i>
+                            Campaign Saya
+                        </a>
+                    </li>
+                    <li>
+                        <a href="profile-donasi-saya.html">
+                            <i class="fas fa-donate" style="margin-right: 10px"></i>
+                            Donasi Saya
+                        </a>
+                    </li>
+                    <li>
+                        <a href="profile-donasi-rutin.html">
+                            <i class="fas fa-clock" style="margin-right: 10px"></i>
+                            Donasi Rutin
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li>
+                        <a href="#akunSubmenu" class="download text-center">Edit Profile</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="home-main.html" class="article text-center">Back to Home</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="container-fluid" style="margin-top: 20px;">
+
+                <h3>Donasi</h3>
+                <h6>Data Donasi anda selama ini.</h6>
+                <hr class="hr">
+                <br>
+                <div class="container-fluid">
+                    <div class="box">
+                        <br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <!-- dropdown -->
+                                    <div class="float-right">
+                                        <div class="row">
+                                            <h2><label>Status</label>
+                                                <select class="form-control">
+                                                    <option>Semua</option>
+                                                    <option>Created</option>
+                                                    <option>Pending</option>
+                                                </select>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="margin-left: 50px;">
+                                    <div class="float-left">
+                                        <div class="row">
+                                            <h2> <label>Urutkan</label>
+                                                <select class="form-control">
+                                                    <option>Semua</option>
+                                                    <option>Terbaru</option>
+                                                    <option>Terlama</option>
+                                                </select>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <hr>
+                            </div>
+                            <div class="row text-center">
+                                <div class="col" id="col-status">
+                                    <p style="padding-top: 15px;">Judul Campaign</p>
+                                </div>
+                                <div class="col" id="col-status">
+                                    <p style="padding-top: 15px;">Nominal Donasi</p>
+                                </div>
+                                <div class="col" id="col-status">
+                                    <p style="padding-top: 15px;">Tanggal Donasi</p>
+                                </div>
+                                <div class="col" id="col-status">
+                                    <p style="padding-top: 15px;">Status</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br><br><br>
+
+    <!-- Footer -->
+    <div ng-include="'footer.html'"></div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.4.1.slim.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/bootstrap-4.3.1/bootstrap.min.js">
+    </script>
+
+    <!-- JavaScript MDBootsrap  -->
+    <script type="text/javascript" src="assets/js/mdb-4.8.3/mdb.min.js">
+    </script>
+
+    <!-- Angular -->
+    <script src="assets/js/angular.min.js"></script>
+
+    <!-- Navbar Effect -->
+    <script src="assets/js/navbar-effect.js"></script>
+
+</body>
+
+</html>

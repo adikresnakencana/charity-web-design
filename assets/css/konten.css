@@ -1,0 +1,199 @@
+.container-fluid-nav2 {
+    margin-top: 70px;
+    background-colors: hsla(202, 96%, 90%, 0.3);
+}
+
+.container {
+    background-colors: hsla(202, 96%, 90%, 0.3);
+
+
+}
+
+.kanan {
+    padding: 10px;
+}
+
+
+.judul {
+    font-weight: 400;
+    font-size: 30pt;
+    /* padding: 10px; */
+}
+
+.project-bar {
+    overflow: hidden;
+    height: 10px;
+    background: rgb(183, 241, 234);
+    margin-bottom: 5px;
+}
+
+
+
+/* proggres */
+.progress {
+    position: relative;
+    height: 10px;
+    width: 100%;
+    border-radius: 2px;
+
+
+
+}
+
+.contribution {
+    padding: 10px;
+}
+
+.item-img {
+    border-radius: 100%;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.text--bold {
+    font-weight: bold;
+}
+
+/* foto kiri */
+span.img-rounded {
+
+    border-radius: 6px;
+
+    height: 100%;
+    width: auto;
+
+
+}
+
+span.img-rounded>img {
+    border-radius: 6px;
+    height: 100%;
+    width: auto;
+}
+
+.col-kanan2 {
+    background: white;
+    width: 40%;
+    padding: 15px;
+}
+
+.col-kiri-project {
+    margin-left: 15px;
+
+}
+
+.colkanan {
+    text-align: right;
+}
+
+/* navs */
+/* Style tab links */
+.tablink {
+    background-color: #5ba6dd;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #5ba6dd;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: rgb(95, 95, 95);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    /* border: solid 1px black; */
+}
+
+#Detail,
+#Info-Terbaru,
+#Fundraiser,
+#Pesan {
+    background-color: rgb(223, 223, 223);
+}
+
+/* nav>.nav.nav-tabs {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background: #d7e2f1;
+    border-radius: 5px;
+
+}
+
+nav>div a.nav-item.nav-link,
+nav>div a.nav-item.nav-link.active {
+    border: none;
+    padding: 10px 5px;
+    color: #fff;
+    background: #5f99eb;
+    border-radius: 0;
+}
+
+
+
+.tab-content {
+    background: #fdfdfd;
+    line-height: 25px;
+
+
+    border-bottom: 5px solid #3A99D8;
+    padding: 10px;
+}
+
+nav>div a.nav-item.nav-link:hover,
+nav>div a.nav-item.nav-link:focus {
+    border: none;
+    background: #3A99D8;
+    color: #fff;
+    border-radius: 0;
+    transition: background 0.20s linear;
+} */
+
+
+
+.btnz {
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    height: 80%;
+    background: #3A99D8;
+
+
+}
+
+.btnz:hover {
+    box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+.btnf {
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    height: 80%;
+    background: #3A99D8;
+
+}
+
+
+
+.btnf {
+    box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
+}

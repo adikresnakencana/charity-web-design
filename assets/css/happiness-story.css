@@ -1,0 +1,21 @@
+.text-position-bold {
+    font-weight: bold;
+}
+
+.text-left {
+    margin-left: 330px;
+}
+
+.text-left-capt {
+    margin-left: 80px;
+}
+
+
+.rounded-circle {
+    height: 50px;
+    width: 50px;
+}
+
+.section-bar-top {
+    margin-top: 100px;
+}

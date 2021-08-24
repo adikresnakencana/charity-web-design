@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-4.3.1/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- MDBootsrap CSS -->
+    <link rel="stylesheet" href="assets/css/mdb-4.8.3/mdb.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/campaign.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/campaign2.css">
+    <title></title>
+</head>
+
+<body ng-app="">
+    <!-- kode navbar -->
+    <div ng-include="'navbar-alternate.html'"></div>
+    <!-- akhir code navbar -->
+    <br><br><br>
+    <div class="split left">
+
+        <h1 align="center"><b>Ikuti langkah-langkah berikut</b></h1>
+        <div class="container">
+            <br><br>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="step well"><br>
+                    <div class="form-group">
+                        <label for="usr">Kategori Penggalangan Dana:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>
+                    <div class="form-group">
+                        <label for="usr">Judul Penggalangan Dana:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>
+                    <div class="form-group">
+                        <label for="usr">Batas Waktu Penggalangan:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>
+                    <div class="form-group">
+                        <label for="usr">Target Donasi yang Dibutuhkan:</label>
+                        <div class="input-group mb-3 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Rp</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text">.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="step well"><br>
+                    <div class="container">
+                        <div class="col-md-6">
+                            <label>Upload Foto yang ingin digunakan</label>
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <span class="btn btn-default btn-file">
+                                        Browse… <input type="file" id="imgInp">
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="usr">Deskripsi Penggalangan Dana:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>
+                </div>
+
+                <div class="step well">
+                    <br>
+                    <div class="form-group">
+                        <label for="usr">Kontak Pribadi:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <form>
+                </div>
+                <div class="step well"><br>
+                    <h3>Verifikasi</h3>
+                    <form role="form">
+
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Retype Password:</label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+
+                    </form>
+                </div>
+
+
+
+                <button class="action back btn btn-info">Back</button>
+                <button class="action next btn btn-info">Next</button>
+                <button class="action submit btn btn-success">Submit</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- Sebelah kanan-->
+    <div class="split right">
+        <div class="centered">
+            <h1><b>Mulai Campaign Anda</b></h1><br>
+            <img src="assets/img/ss.png" class="img1">
+            <p>Mari Peduli Mari Berbagi</p>
+        </div>
+        <div class="centered">
+            <img src="assets/img/Content-Main.jpg" class="img2">
+        </div>
+
+
+    </div>
+
+
+    <!-- script -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.4.1.slim.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/bootstrap-4.3.1/bootstrap.min.js">
+    </script>
+
+    <!-- JavaScript MDBootsrap  -->
+    <script type="text/javascript" src="assets/js/mdb-4.8.3/mdb.min.js">
+    </script>
+
+    <!-- Angular -->
+    <script src="assets/js/angular.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+                var current = 1;
+
+                widget = $(".step");
+                btnnext = $(".next");
+                btnback = $(".back");
+                btnsubmit = $(".submit");
+
+                // Init buttons and UI
+                widget.not(':eq(0)').hide();
+                hideButtons(current);
+                setProgress(current);
+
+                // Next button click action
+                btnnext.click(function () {
+                        if (current < widget.length) {
+                            widget.show();
+                            widget.not(':eq(' + (current++) + ')').hide();
+                            setProgress(current);
+                        }
+
+                        hideButtons(current);
+                    }
+
+                ) // Back button click action
+
+                btnback.click(function () {
+                        if (current > 1) {
+                            current = current - 2;
+                            btnnext.trigger('click');
+                        }
+
+                        hideButtons(current);
+                    }
+
+                )
+            }
+
+        );
+
+        // Change progress bar action
+        setProgress = function (currstep) {
+            var percent = parseFloat(100 / widget.length) * currstep;
+            percent = percent.toFixed();
+            $(".progress-bar").css("width", percent + "%").html(percent + "%");
+        }
+
+        // Hide buttons according to the current step
+        hideButtons = function (current) {
+            var limit = parseInt(widget.length);
+
+            $(".action").hide();
+
+            if (current < limit) btnnext.show();
+            if (current > 1) btnback.show();
+
+            if (current == limit) {
+                btnnext.hide();
+                btnsubmit.show();
+            }
+        }
+    </script>
+
+
+
+    <!-- angular
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+    </script> -->
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.login-box {
+    width: 500px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+
+.d-block {
+    color: white;
+}
+
+.login-box2 {
+    width: 500px;
+    height: 610px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+
+}
+
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h5 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.form-signin {
+    width: auto;
+}
+
+.form-label-group {
+    margin-bottom: 1rem;
+    height: auto;
+}
+
+.form-label-group input {
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+
+.account1 {
+    font-size: 16px;
+}
+
+.btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+}
+
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+}
+
+.card-title {
+    color: white;
+}

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- MDBootsrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
+
+    <!-- style asset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/konten.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+    <title>Untuk Adik Panti Asuhan</title>
+</head>
+
+<body ng-app="">
+    <!-- navbar -->
+    <div ng-include="'navbar-alternate.html'"></div>
+    <!-- navbar -->
+
+    <div class="container-fluid-nav2" style="background-color: rgba(205, 236, 254, 0.3)">
+        <div class="container">
+            <br>
+            <div class="container" style="padding: 0;">
+                <!-- judul awal -->
+                <div class="judul">
+                    <h1>Untuk Adik Panti Asuhan</h1>
+                </div>
+                <br>
+            </div>
+
+            <div class="row" id="duakolom">
+                <!-- gambar di kiri -->
+                <div class="col">
+                    <div class="gmbr1 wow fadeInLeft ">
+                        <span class="img-rounded"><img src="assets/img/bgkonten.jpg"></span>
+                    </div>
+                </div>
+                <!-- menu sebelah kanan gambar -->
+                <div class="col wow fadeInRight ">
+
+                    <div class="project-status">
+                        <div class="project-collected">
+                            <h1 class="project-collected__amount">
+                                Rp 15.236.617 </h1>
+                            terkumpul dari Rp 100.000.000
+                        </div>
+                        <div class="progress md-progress" style="height: 10px; background-color: #73caf5">
+                            <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="project-target">
+                            <div class="row">
+                                <div class="col-kiri-project">
+
+                                    <span class="project-tercapai">
+                                        <strong>15% </strong> tercapai
+                                    </span>
+                                </div>
+                                <div class="col colkanan">
+                                    <span class="project-deadline">
+                                        <strong>10</strong> hari lagi
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- code tombol donate dan facebook sharae -->
+                    <div class="contribution text-center">
+
+                        <button type=" button" class="btnz " onclick="location.href='pembayaran.html';">Donasi
+                            Sekarang</button>
+
+                        </button>
+                        <br>
+                        <br>
+
+                        <!-- <button type="button" class="btnf " id="facebookshare"><i class="fab fa-facebook-f pr-1"></i>
+                            Facebook Share
+                        </button> -->
+
+                        <div class="btnf fb-share-button" data-href="https://peduli-senyuman.web.app/konten.html"
+                            data-layout="button_count" data-size="large">
+                            <a target="_blank"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpeduli-senyuman.web.app%2Fkonten.html&amp;src=sdkpreparse"
+                                class="btnf">Bagikan
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- penggalangan dana mulai -->
+                    <div class="project-report">
+                        <span class="text-14">Penggalangan dana dimulai
+                            <span class="text--bold">
+                                29 Apr 2019 </span> oleh:
+                        </span>
+                    </div>
+                    <hr>
+
+                    <div class="project-collaborator">
+                        <div class="col">
+
+
+                            <div class="project-owner project-owner--ngo d-flex center text-breakword">
+                                <div class="item-img">
+                                    <img alt="" src="assets/img/Akun.jpg">
+                                </div>
+                                <div class="campaigner-body ">
+                                    <span class="text-14">
+                                        <span class="text-14 text-black-default text--bold">Young On
+                                            Top</span>
+                                    </span>
+                                    <br>
+                                    <small class="text-12 text-black40 d-ib small-margin-top">Akun telah
+                                        terverifikasi</small>
+                                </div>
+                            </div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+                <!-- judul bawah gambar -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="katapendek">
+                                <!-- Berbagi kebahagiaan di hari lebaran untuk adik-adik di panti asuhan. -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- akhir code  judul bawah gambar -->
+
+            </div>
+            <!-- code navs bawah di mulai -->
+            <div class="wow fadeInUp">
+                <button class="tablink" onclick="openPage('Detail', this, '#73caf5')">Detail</button>
+                <button class="tablink" onclick="openPage('Info-Terbaru', this, '#73caf5')" id="defaultOpen">Info
+                    Terbaru</button>
+                <button class="tablink" onclick="openPage('Fundraiser', this, '#73caf5')">Fundraiser</button>
+                <button class="tablink" onclick="openPage('Pesan', this, '#73caf5')">Pesan</button>
+
+                <div id="Detail" class="tabcontent">
+                    <h3>Detail</h3>
+                    <p>Detail content Here.</p>
+                </div>
+
+                <div id="Info-Terbaru" class="tabcontent">
+                    <h3>Info Terbaru</h3>
+                    <p>Info Terbaru content Here.</p>
+                </div>
+
+                <div id="Fundraiser" class="tabcontent">
+                    <h3>Fundraiser</h3>
+                    <p>Fundraiser content Here.</p>
+                </div>
+
+                <div id="Pesan" class="tabcontent">
+                    <h3>Pesan</h3>
+                    <p>Pesan content Here..</p>
+                </div>
+
+
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+
+    <!-- navbar -->
+    <div ng-include="'footer.html'"></div>
+    <!-- navbar -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!-- JavaScript MDBootsrap -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js">
+    </script>
+    <!-- angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+    </script>
+    <!-- WOW -->
+    <script src="assets/js/wow.min.js"></script>
+
+    <script>
+        // navs
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    <!-- wow -->
+    <script>
+        new WOW().init();
+    </script>
+    <!-- fbshare -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v3.3">
+    </script>
+</body>
+
+</html>

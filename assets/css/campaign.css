@@ -1,0 +1,44 @@
+.split {
+    height: 97.5%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: rgb(231, 231, 231);
+}
+
+.right {
+    right: 0;
+    background-color: rgb(201, 201, 201);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.img2 {
+    width: 415px;
+    height: 200px;
+}
+
+body {
+    background-color: rgb(30, 39, 65);
+}
+
+.fixed-bottom {
+    color: white
+}

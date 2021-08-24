@@ -1,0 +1,108 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    height: 1px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+
+.form-input {
+    width: 100%;
+    font-size: 24px !important;
+    color: #4a4a4a;
+    background-color: #f2f3f4;
+
+    text-align: right;
+
+    height: auto;
+}
+
+
+#donorName {
+    border-radius: 5px;
+}
+
+.text-blue {
+    color: blue;
+    font-weight: bold;
+    text-align: right;
+    align-items: right;
+}
+
+#container1 {
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#container2 {
+    width: 450px;
+
+}
+
+
+
+
+.textkomen {
+    width: 100%;
+    font-size: 24px !important;
+    color: #4a4a4a;
+    background-color: #f2f3f4;
+
+    text-align: right;
+
+    height: auto;
+
+}
+
+.box-alert {
+    background: #abd5f5;
+    font-size: 12px;
+    position: relative;
+    width: 100%;
+    padding: 5px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+
+#masuk {
+    color: blue;
+    font-weight: bold;
+}
+
+.align-center {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.form-textfield {
+    padding-bottom: 5px;
+}
+
+.form-check {
+    padding-bottom: 10px;
+}
+
+
+.textarea1 {
+    padding-top: 10px;
+}
+
+.btn {
+    width: 100%;
+    height: 100;
+    font-size: 20px;
+}
+
+
+.col-colkanan {
+    text-align: right;
+    padding-right: 15px;
+}
